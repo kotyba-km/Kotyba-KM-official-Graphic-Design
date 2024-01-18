@@ -1,0 +1,139 @@
+@media (max-width:1600px) {
+    .overlay p {
+        font-size: medium;
+    }
+    .overlay {
+        padding: 0;
+    }
+    .introduction {
+        font-size: 25px;
+    }
+}
+@media (max-width:1325px) {
+    .social-menu{
+        width: 35vw;
+    }
+    .overlay p {
+        font-size: smaller;
+    }
+}
+@media (max-width:1200px) {
+    .navy{
+    display: flex !important;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .social-menu{
+        width: 70vw;
+    }
+    .hero-section
+    {
+        width: 92vw;
+        height: 80vh;
+    }
+    .introduction {
+        font-size: 20px;
+    }
+    .introduction:first-of-type ,.introduction:nth-of-type(2) {
+        font-size: 25px;
+    }
+}
+@media (max-width:768px) {
+    .skill-menu {
+        display: flex;
+        flex-direction:column ;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .card7 {
+     display: block;
+     width: 70vw;
+     height: 550px;
+     margin: 50px 0;
+     z-index: 3;
+    }
+
+    .introduction {
+        font-size: 14px;
+    }
+    .introduction:first-of-type ,.introduction:nth-of-type(2) {
+        font-size: 16px;
+    }
+    .navy {
+       height: 8vh;
+       padding: 0px!important;
+   }
+    .navbar-item{
+       display: none;
+   }
+   .burger{
+       display: block;
+   }
+}
+@media (max-width:600px)
+{
+    .card7 {
+        height: 420px;
+        margin: 0;
+    }
+    .click {
+        font-size: 70px;
+    }
+    .brandy img{
+        transform: scale(0.9);
+    }
+    .introduction {
+        font-size: 10px;
+    }
+    .navbar-item {
+        display: none !important;
+    }
+}
+@media (max-width:450px) {
+    .social-menu{
+        width: 95vw;
+    } 
+    .overlay {
+        font-size: 14px;
+    }
+    .click {
+        font-size: 45px;
+    }
+    .introduction {
+        font-size: 14px;
+    }
+    .introduction:first-of-type ,.introduction:nth-of-type(2) {
+        font-size: 13px;
+    }
+    .card7 .overlay {
+        transform: translateY(-100px);
+    }
+    br {
+        display: none;
+    }
+}
+@media (max-width:350px) {
+    .card7 .overlay {
+        transform: translateY(-170px);
+    }
+}
+@media (max-width:300px) {
+    body {
+        width: 300px;
+    }
+    .overlay {
+        font-size: 7px;
+    }
+    .card7 .overlay {
+        transform: translateY(-220px);
+    }
+    .navy {
+        width: 300px;
+    }
+    .start {
+        width: 300px;
+    }
+    .click {
+        font-size: 40px;
+    }
+}
