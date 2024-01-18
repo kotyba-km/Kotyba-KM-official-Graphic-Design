@@ -231,7 +231,7 @@ body {
    background: #000832;
    border: 10px solid #00126d;
    display: flex;
-   justify-content: center;
+   justify-content: start;
    align-items: center;
    flex-direction: column;
    gap: 10%;
@@ -245,6 +245,7 @@ body {
    padding: 5px;
    border-radius: 20px;
    background-color: rgb(255, 255, 255);
+   margin-top: 2.5%;
 }
 .click {
    margin-top: 100px ;
